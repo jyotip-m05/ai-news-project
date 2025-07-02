@@ -22,7 +22,7 @@ const Category = () => {
           setArticles(JSON.parse(data).articles);
         } else {
           // Fetch from backend
-          const res = await fetch(`http://localhost:3000/api/news?endpoint=top-headlines&category=${type.toLowerCase()}&language=en`);
+          const res = await fetch(`https://ai-manager-theta.vercel.app/api/news?endpoint=top-headlines&category=${type.toLowerCase()}&language=en`);
           const result = await res.json();
           if (result.articles) {
             setArticles(result.articles);
