@@ -1,0 +1,44 @@
+.card {
+    cursor: pointer;
+    max-width: 300px;
+    min-width: 275px;
+    height: 250px;
+    background-color: rgba(127, 127, 127, 0.3);
+    backdrop-filter: blur(3px);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: space-around;
+    transition: all 0.3s ease;
+    /*margin: 10px; !* Add some margin *!*/
+    flex: 1;
+}
+.card:hover{
+    scale: 1.05;
+}
+
+.img-cont{
+    width: 100%;
+    height: 50%;
+    overflow: hidden;
+    border-radius: 10px 10px 0 0;
+}
+
+.img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.text-cont{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1px;
+    padding: 0 10px;
+    text-align: left;
+}

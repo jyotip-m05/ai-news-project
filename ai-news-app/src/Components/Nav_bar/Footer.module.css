@@ -1,0 +1,26 @@
+.footerContainer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+.footerText {
+    margin: 0;
+    font-size: 14px;
+}
+
+.footerLink {
+    color: inherit;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footerContainerLight {
+    color: black;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}

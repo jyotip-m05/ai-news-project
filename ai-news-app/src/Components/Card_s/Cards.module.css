@@ -1,0 +1,10 @@
+.cards{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; /* Changed from space-between */
+    gap: 20px; /* Increased gap */
+    align-items: center;
+    flex: 1;
+}

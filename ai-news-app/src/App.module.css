@@ -1,0 +1,20 @@
+.gap{
+    min-width: 100vw;
+    height: 103px;
+    background: transparent;
+}
+
+.win{
+    margin: 0 10px;
+}
+
+@media (max-width: 768px) {
+    .gap{
+        height: 113px;
+    }
+    .win{
+        margin: 0 5px;
+    }
+}
+
+
