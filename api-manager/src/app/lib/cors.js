@@ -7,10 +7,10 @@ export const corsConfig = {
       allowCredentials: true,
       headers: ['Content-Type', 'Authorization']
     },
-    'https://otherdomain.com': {
-      methods: ['GET'],
-      allowCredentials: false,
-      headers: ['Content-Type']
+    'https://ai-news-app-sigma.vercel.app': {
+      methods: ['GET', 'POST', 'PUT', 'DELETE'],
+      allowCredentials: true,
+      headers: ['Content-Type', 'Authorization']
     },
     // Add your actual frontend domain here
     'https://your-frontend-domain.com': {
