@@ -5,7 +5,7 @@ const collectNews = async (params = {}) => {
 
   try {
     // Construct URL with parameters from the params object
-    const url = new URL('https://ai-manager-theta.vercel.app/api/news');
+    const url = new URL('https://api-manager-delta.vercel.app/api/news');
 
     // Add all parameters from the params object to the URL
     Object.entries(params).forEach(([key, value]) => {
