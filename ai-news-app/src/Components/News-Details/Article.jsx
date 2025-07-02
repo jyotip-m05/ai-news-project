@@ -60,7 +60,7 @@ const Article = () => {
     }
 
     try {
-      const res = await fetch('https://ai-manager-theta.vercel.app/api/gemini', {
+      const res = await fetch('https://api-manager-delta.vercel.app/api/gemini', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
